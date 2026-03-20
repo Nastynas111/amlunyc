@@ -1,13 +1,23 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Catering — AMLU Moroccan Street Eatery | NYC · Hamptons · Long Island</title><meta name="description" content="AMLU Moroccan catering for private events, weddings, and corporate gatherings across Manhattan, the Hamptons, Long Island, and Queens."><style>@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cinzel:wght@400;500&family=Jost:wght@200;300;400;500&display=swap");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Catering — AMLU Moroccan Street Eatery | NYC · Hamptons · Long Island</title>
+<meta name="description" content="AMLU Moroccan catering for private events, weddings, and corporate gatherings across Manhattan, the Hamptons, Long Island, and Queens.">
+<style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cinzel:wght@400;500&family=Jost:wght@200;300;400;500&display=swap');
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--w:#fdfaf5;--cr:#f7f0e6;--cr2:#ede0cc;--g:#c9a96e;--gl:#e8c98a;--gd:#9a7840;--dk:#1a130a;--dk2:#2c1f12;--dk3:#120d07;--tx:#3d2b1a;--mu:#9a8870;--wi:rgba(201,169,110,0.2);--wi2:rgba(201,169,110,0.08)}
-html{scroll-behavior:smooth}body{background:var(--w);color:var(--tx);font-family:Jost,sans-serif;font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased;cursor:none}
+html{scroll-behavior:smooth}
+body{background:var(--w);color:var(--tx);font-family:'Jost',sans-serif;font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased;cursor:none}
 .cur{position:fixed;width:6px;height:6px;background:var(--g);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
 .cur-r{position:fixed;width:28px;height:28px;border:1px solid rgba(201,169,110,.45);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:all .18s ease}
-::-webkit-scrollbar{width:2px}::-webkit-scrollbar-thumb{background:var(--g)}::selection{background:var(--g);color:var(--dk)}a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
+::-webkit-scrollbar{width:2px}::-webkit-scrollbar-thumb{background:var(--g)}
+::selection{background:var(--g);color:var(--dk)}
+a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 .nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:center;justify-content:space-between;padding:0 52px;height:80px;transition:all .4s}
 .nav.sc{background:rgba(253,250,245,.97);backdrop-filter:blur(20px);border-bottom:1px solid var(--wi);height:64px;box-shadow:0 1px 28px rgba(61,43,26,.06)}
-.nl{font-family:Cinzel,serif;font-size:23px;letter-spacing:7px;color:var(--w);transition:color .3s}.nav.sc .nl{color:var(--dk)}.nl span{color:var(--g)}
+.nl{font-family:'Cinzel',serif;font-size:23px;letter-spacing:7px;color:var(--w);transition:color .3s}.nav.sc .nl{color:var(--dk)}.nl span{color:var(--g)}
 .nls{display:flex;gap:40px;list-style:none;position:absolute;left:50%;transform:translateX(-50%)}
 .nls a{font-size:10px;font-weight:400;letter-spacing:3px;text-transform:uppercase;color:rgba(253,250,245,.5);transition:color .25s}
 .nav.sc .nls a{color:var(--mu)}.nls a:hover,.nls a.act{color:var(--g)!important}
@@ -19,9 +29,14 @@ html{scroll-behavior:smooth}body{background:var(--w);color:var(--tx);font-family
 .mn.op{display:flex}.mn a{padding:13px 0;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--mu);border-bottom:1px solid var(--wi2);transition:color .2s}.mn a:hover{color:var(--g)}
 .mn-c{margin-top:18px!important;background:var(--g)!important;color:var(--dk)!important;text-align:center;padding:13px!important;border:none!important;letter-spacing:3px}
 @media(max-width:900px){.nls{display:none}.hb{display:flex}.nav,.mn{padding-left:24px;padding-right:24px}}
+.orn{display:flex;align-items:center;justify-content:center;gap:16px}
+.ol{flex:1;max-width:100px;height:1px;background:linear-gradient(to right,transparent,var(--g))}.ol.r{background:linear-gradient(to left,transparent,var(--g))}
+.od{width:7px;height:7px;background:var(--g);transform:rotate(45deg);flex-shrink:0}
+.ot{font-family:'Cinzel',serif;font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--g);white-space:nowrap}
 .sl{font-size:9px;letter-spacing:5px;text-transform:uppercase;color:var(--g);margin-bottom:16px;display:block;font-weight:400}
-.st{font-family:"Cormorant Garamond",serif;font-size:clamp(32px,4.5vw,56px);font-weight:300;line-height:1.05;color:var(--dk);letter-spacing:-.5px}
-.st em{font-style:italic;color:var(--gd)}.bt{font-size:14px;font-weight:300;color:var(--mu);line-height:1.9}.bt strong{color:var(--tx);font-weight:400}
+.st{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,4.5vw,56px);font-weight:300;line-height:1.05;color:var(--dk);letter-spacing:-.5px}
+.st em{font-style:italic;color:var(--gd)}
+.bt{font-size:14px;font-weight:300;color:var(--mu);line-height:1.9}.bt strong{color:var(--tx);font-weight:400}
 .b-dk{display:inline-block;font-size:10px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--w);background:var(--dk);padding:14px 38px;transition:all .3s;border:none;cursor:none}
 .b-dk:hover{background:var(--dk2);transform:translateY(-2px)}
 .b-g{display:inline-block;font-size:10px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--dk);background:var(--g);padding:14px 38px;transition:all .3s;border:none;cursor:none}
@@ -32,33 +47,41 @@ html{scroll-behavior:smooth}body{background:var(--w);color:var(--tx);font-family
 .b-ow:hover{border-color:var(--g);color:var(--g)}
 footer{background:var(--dk3);border-top:1px solid rgba(201,169,110,.1);padding:68px 5% 28px}
 .fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:1300px;margin:0 auto 52px}
-@media(max-width:900px){.fg{grid-template-columns:1fr 1fr;gap:32px}}@media(max-width:480px){.fg{grid-template-columns:1fr;gap:24px}}
-.fb{font-family:Cinzel,serif;font-size:24px;letter-spacing:6px;color:var(--w);margin-bottom:8px}.fb span{color:var(--g)}
+@media(max-width:900px){.fg{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:480px){.fg{grid-template-columns:1fr;gap:24px}}
+.fb{font-family:'Cinzel',serif;font-size:24px;letter-spacing:6px;color:var(--w);margin-bottom:8px}.fb span{color:var(--g)}
+.ft_{font-family:'Cormorant Garamond',serif;font-size:15px;font-style:italic;color:var(--gd);margin-bottom:12px}
 .fd{font-size:12px;color:rgba(253,250,245,.2);line-height:1.75;max-width:240px}
-.fct{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:rgba(201,169,110,.4);margin-bottom:15px;font-family:Cinzel,serif}
-.fl{list-style:none;display:flex;flex-direction:column;gap:9px}.fl a{font-size:13px;font-weight:300;color:rgba(253,250,245,.2);transition:color .2s}.fl a:hover{color:var(--g)}
+.fct{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:rgba(201,169,110,.4);margin-bottom:15px;font-family:'Cinzel',serif}
+.fl{list-style:none;display:flex;flex-direction:column;gap:9px}
+.fl a{font-size:13px;font-weight:300;color:rgba(253,250,245,.2);transition:color .2s}.fl a:hover{color:var(--g)}
 .fbot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:24px;border-top:1px solid rgba(201,169,110,.07);max-width:1300px;margin:0 auto}
-.fcp{font-size:11px;color:rgba(253,250,245,.13)}.flv{font-size:11px;color:rgba(253,250,245,.1)}.flv a{color:rgba(201,169,110,.2);transition:color .2s}.flv a:hover{color:var(--g)}
+.fcp{font-size:11px;color:rgba(253,250,245,.13)}
+.flv{font-size:11px;color:rgba(253,250,245,.1)}.flv a{color:rgba(201,169,110,.2);transition:color .2s}.flv a:hover{color:var(--g)}
 .fso{display:flex;gap:10px}.fso a{width:32px;height:32px;border:1px solid rgba(201,169,110,.13);display:flex;align-items:center;justify-content:center;font-size:13px;transition:all .2s}.fso a:hover{border-color:var(--g)}
 .fwa{position:fixed;bottom:28px;right:28px;z-index:800;width:52px;height:52px;background:#25d366;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 4px 20px rgba(37,211,102,.22);transition:transform .2s;animation:bob 4s ease-in-out infinite}
-.fwa:hover{background:#1fa851;transform:scale(1.08)!important}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.fwa:hover{background:#1fa851;transform:scale(1.08)!important}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .75s ease,transform .75s ease}
 .rl{opacity:0;transform:translateX(-26px);transition:opacity .75s ease,transform .75s ease}
 .rv.sh,.rl.sh{opacity:1;transform:none}
-.ph{height:88vh;min-height:560px;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding-bottom:0}
-.ph-photos{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px}.ph-photo{overflow:hidden}.ph-photo img{width:100%;height:100%;object-fit:cover;filter:brightness(.38) saturate(1.1) contrast(1.05);transition:transform 8s ease}.ph-photo:hover img{transform:scale(1.04)}
-.ph-vl{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(253,250,245,0) 30%,rgba(253,250,245,1) 100%)}
+.ph{height:85vh;min-height:560px;position:relative;overflow:hidden;display:flex;align-items:flex-end}
+.ph-photos{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px}
+.ph-photo{overflow:hidden}
+.ph-photo img{width:100%;height:100%;object-fit:cover;filter:brightness(.35) saturate(1.1) contrast(1.05);transition:transform 8s ease}
+.ph-photo:hover img{transform:scale(1.04)}
+.ph-vl{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(253,250,245,0) 30%,rgba(253,250,245,.95) 100%)}
 .ph-c{position:relative;z-index:2;padding:60px 5%;max-width:1300px;margin:0 auto;width:100%}
 .ph-tag{font-size:9px;letter-spacing:6px;text-transform:uppercase;color:var(--g);border-top:1px solid var(--g);border-bottom:1px solid var(--g);padding:7px 24px;display:inline-block;margin-bottom:22px}
-.ph-h{font-family:"Cormorant Garamond",serif;font-size:clamp(48px,9vw,110px);font-weight:300;line-height:.95;color:var(--w);letter-spacing:-2px;margin-bottom:12px}
+.ph-h{font-family:'Cormorant Garamond',serif;font-size:clamp(48px,9vw,110px);font-weight:300;line-height:.95;color:var(--w);letter-spacing:-2px;margin-bottom:12px}
 .ph-h em{font-style:italic;color:var(--gl)}
-.ph-s{font-size:15px;font-weight:300;color:rgba(253,250,245,.45);max-width:560px;line-height:1.7;margin-bottom:32px}
+.ph-s{font-size:15px;font-weight:300;color:rgba(253,250,245,.42);max-width:560px;line-height:1.7;margin-bottom:32px}
 .ph-areas{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:36px}
 .ph-area{font-size:9px;letter-spacing:3px;text-transform:uppercase;border:1px solid rgba(201,169,110,.3);color:rgba(201,169,110,.6);padding:8px 18px}
 .intro-s{padding:80px 5%;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1300px;margin:0 auto}
 @media(max-width:768px){.intro-s{grid-template-columns:1fr;gap:40px}}
-.intro-img-w{position:relative}
 .intro-img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:brightness(.92)}
+.intro-img-w{position:relative}
 .intro-tag{position:absolute;bottom:0;left:0;background:var(--g);color:var(--dk);padding:13px 22px;font-size:9px;letter-spacing:4px;text-transform:uppercase;font-weight:500}
 .areas-s{padding:80px 5%;background:var(--cr)}
 .areas-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;max-width:1300px;margin:0 auto}
@@ -69,178 +92,206 @@ footer{background:var(--dk3);border-top:1px solid rgba(201,169,110,.1);padding:6
 .area-card:hover{border-color:var(--wi);transform:translateY(-4px);box-shadow:0 12px 40px rgba(61,43,26,.08)}
 .area-card:hover::after{transform:scaleX(1)}
 .ac-icon{font-size:28px;margin-bottom:16px;display:block;opacity:.7}
-.ac-name{font-family:"Cormorant Garamond",serif;font-size:24px;color:var(--dk);margin-bottom:8px}
+.ac-name{font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--dk);margin-bottom:8px}
 .ac-loc{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--g);margin-bottom:12px}
 .ac-desc{font-size:13px;color:var(--mu);line-height:1.7;font-weight:300}
 .ac-items{display:flex;flex-direction:column;gap:5px;margin-top:14px}
 .ac-item{font-size:12px;color:var(--mu);display:flex;align-items:center;gap:8px}
 .ac-item::before{content:"✦";color:var(--g);font-size:9px}
-.packages-s{padding:80px 5%;max-width:1300px;margin:0 auto}
+.pkg-s{padding:80px 5%;max-width:1300px;margin:0 auto}
 .pkg-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:48px}
 @media(max-width:600px){.pkg-grid{grid-template-columns:1fr}}
-.pkg-card{padding:40px 32px;background:var(--cr);border:1px solid var(--wi2);transition:all .2s;position:relative}
+.pkg-card{padding:40px 32px;background:var(--cr);border:1px solid var(--wi2);transition:all .2s}
 .pkg-card:hover{background:var(--cr2)}
-.pkg-card.featured{background:var(--dk);border-color:transparent}
+.pkg-card.feat{background:var(--dk);border-color:transparent}
 .pkg-icon{font-size:36px;margin-bottom:18px;display:block}
-.pkg-name{font-family:"Cormorant Garamond",serif;font-size:28px;color:var(--dk);margin-bottom:6px}
-.pkg-card.featured .pkg-name{color:var(--w)}
+.pkg-name{font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--dk);margin-bottom:6px}
+.pkg-card.feat .pkg-name{color:var(--w)}
 .pkg-sub{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--g);margin-bottom:16px}
 .pkg-desc{font-size:13px;color:var(--mu);line-height:1.7;margin-bottom:20px}
-.pkg-card.featured .pkg-desc{color:rgba(253,250,245,.45)}
+.pkg-card.feat .pkg-desc{color:rgba(253,250,245,.4)}
 .pkg-feats{display:flex;flex-direction:column;gap:8px;margin-bottom:24px}
 .pf{font-size:12px;color:var(--mu);display:flex;align-items:flex-start;gap:8px;line-height:1.5}
 .pf::before{content:"✦";color:var(--g);font-size:9px;margin-top:2px;flex-shrink:0}
-.pkg-card.featured .pf{color:rgba(253,250,245,.4)}
+.pkg-card.feat .pf{color:rgba(253,250,245,.35)}
 .pkg-note{font-size:11px;color:var(--g);font-style:italic}
-.process-s{padding:80px 5%;background:var(--dk3);position:relative;overflow:hidden}
+.proc-s{padding:80px 5%;background:var(--dk3);position:relative;overflow:hidden}
+.proc-bg{position:absolute;inset:0;background-image:url('images/shrimp.jpg');background-size:cover;background-position:center;filter:brightness(.08)}
 .proc-inner{position:relative;z-index:2;max-width:1000px;margin:0 auto;text-align:center}
 .proc-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:48px}
 @media(max-width:600px){.proc-steps{grid-template-columns:1fr 1fr}}
 .ps{background:rgba(253,250,245,.03);border:1px solid rgba(201,169,110,.12);padding:28px 20px;text-align:center}
-.ps-num{font-family:"Cormorant Garamond",serif;font-size:48px;color:rgba(201,169,110,.2);line-height:1;margin-bottom:12px}
+.ps-num{font-family:'Cormorant Garamond',serif;font-size:48px;color:rgba(201,169,110,.2);line-height:1;margin-bottom:12px}
 .ps-name{font-size:13px;font-weight:400;color:var(--w);margin-bottom:6px}
 .ps-desc{font-size:11px;color:rgba(253,250,245,.3);line-height:1.6}
-.inquiry-s{padding:80px 5%;max-width:800px;margin:0 auto}
+.inq-s{padding:80px 5%;max-width:800px;margin:0 auto}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:600px){.form-grid{grid-template-columns:1fr}}
 .field{display:flex;flex-direction:column;gap:7px}
 .field.full{grid-column:1/-1}
 .field label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--mu)}
-.field input,.field select,.field textarea{background:var(--cr);border:1px solid var(--wi2);color:var(--tx);padding:13px 16px;font-family:Jost,sans-serif;font-size:14px;font-weight:300;outline:none;transition:border-color .2s;border-radius:0}
+.field input,.field select,.field textarea{background:var(--cr);border:1px solid var(--wi2);color:var(--tx);padding:13px 16px;font-family:'Jost',sans-serif;font-size:14px;font-weight:300;outline:none;transition:border-color .2s}
 .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--g)}
 .field textarea{resize:vertical;min-height:120px}
 .field select option{background:var(--cr)}
-</style></head><body>
+</style>
+</head>
+<body>
 <div class="cur" id="cu"></div><div class="cur-r" id="cr"></div>
-<nav class="nav" id="nav"><a href="index.html" class="nl">AMLU<span>.</span></a><ul class="nls"><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="catering.html" class="act">Catering</a></li><li><a href="order.html">Order</a></li><li><a href="contact.html">Contact</a></li></ul><a href="catering.html" class="nc">Catering</a><button class="hb" id="hb" onclick="tN()"><span></span><span></span><span></span></button></nav>
+<nav class="nav" id="nav">
+ <a href="index.html" class="nl">AMLU<span>.</span></a>
+ <ul class="nls"><li><a href="index.html" class="">Home</a></li><li><a href="menu.html" class="">Menu</a></li><li><a href="catering.html" class="act">Catering</a></li><li><a href="order.html" class="">Order</a></li><li><a href="contact.html" class="">Contact</a></li></ul>
+ <a href="catering.html" class="nc">Catering</a>
+ <button class="hb" id="hb" onclick="tN()"><span></span><span></span><span></span></button>
+</nav>
 <div class="mn" id="mn"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="catering.html">Catering</a><a href="order.html">Order</a><a href="contact.html">Contact</a><a href="catering.html" class="mn-c">Catering Inquiry</a></div>
 
 <div class="ph">
  <div class="ph-photos">
-  <div class="ph-photo"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80" alt="Moroccan Catering Food"></div>
-  <div class="ph-photo"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Moroccan Spread"></div>
-  <div class="ph-photo"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Event Catering"></div>
+ <div class="ph-photo"><img src="images/hampton1.jpg" alt="AMLU Catering"></div>
+ <div class="ph-photo"><img src="images/hampton2.jpg" alt="AMLU Catering"></div>
+ <div class="ph-photo"><img src="images/hampton3.jpg" alt="AMLU Catering"></div>
  </div>
  <div class="ph-vl"></div>
  <div class="ph-c">
-  <div class="ph-tag rv">Catering &amp; Private Events</div>
-  <h1 class="ph-h rv" style="animation-delay:.1s">We Bring Morocco<br><em>To Your Table.</em></h1>
-  <p class="ph-s rv" style="animation-delay:.2s">From Manhattan boardrooms to Hamptons weddings — AMLU delivers the warmth and richness of Moroccan hospitality directly to your event.</p>
-  <div class="ph-areas rv" style="animation-delay:.3s">
-   <div class="ph-area">Manhattan</div><div class="ph-area">The Hamptons</div><div class="ph-area">Long Island</div>
-   <div class="ph-area">Queens</div><div class="ph-area">Brooklyn</div><div class="ph-area">All of NYC</div>
-  </div>
-  <div class="rv" style="animation-delay:.4s;display:flex;gap:12px;flex-wrap:wrap">
-   <a href="#inquiry" class="b-g">Request a Quote →</a>
-   <a href="tel:3472422033" class="b-ow">Call (347) 242-2033</a>
-  </div>
+ <div class="ph-tag rv">Catering & Private Events</div>
+ <h1 class="ph-h rv" style="animation-delay:.1s">We Bring Morocco<br><em>To Your Table.</em></h1>
+ <p class="ph-s rv" style="animation-delay:.2s">From Manhattan boardrooms to Hamptons weddings and Long Island celebrations — AMLU delivers the warmth and richness of Moroccan hospitality directly to your event.</p>
+ <div class="ph-areas rv" style="animation-delay:.3s">
+ <div class="ph-area">Manhattan</div><div class="ph-area">The Hamptons</div><div class="ph-area">Long Island</div>
+ <div class="ph-area">Queens</div><div class="ph-area">Brooklyn</div><div class="ph-area">The Bronx</div><div class="ph-area">All of NYC</div>
+ </div>
+ <div class="rv" style="animation-delay:.4s;display:flex;gap:12px;flex-wrap:wrap">
+ <a href="#inquiry" class="b-g">Request a Quote →</a>
+ <a href="tel:3472422033" class="b-ow">Call (347) 242-2033</a>
+ </div>
  </div>
 </div>
 
 <div class="intro-s">
  <div class="rl">
-  <span class="sl">Why AMLU Catering</span>
-  <h2 class="st" style="margin-bottom:24px">An experience your<br><em>guests won't forget.</em></h2>
-  <p class="bt" style="margin-bottom:16px">A Moroccan feast is unlike anything else. The slow-cooked tagines, the hand-folded bastilla, the towering couscous served family-style — every dish tells a story and starts a conversation.</p>
-  <p class="bt" style="margin-bottom:28px"><strong>We handle everything.</strong> Our team arrives with all equipment, sets up a full presentation, serves your guests, and leaves the space clean. All you do is enjoy the evening.</p>
-  <div style="display:flex;flex-direction:column;gap:10px">
-   <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>Minimum 15 guests · No maximum</div>
-   <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>We travel across NYC, Long Island &amp; Hamptons</div>
-   <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>Full setup, service, and cleanup included</div>
-   <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>All halal · Dietary accommodations available</div>
-   <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>48 hours notice required · Advance booking recommended</div>
-  </div>
+ <span class="sl">Why AMLU Catering</span>
+ <h2 class="st" style="margin-bottom:24px">An experience your<br><em>guests won't forget.</em></h2>
+ <p class="bt" style="margin-bottom:16px">A Moroccan feast is unlike anything else. The slow-cooked tagines, the hand-folded bastilla, the towering couscous served family-style — every dish tells a story and starts a conversation.</p>
+ <p class="bt" style="margin-bottom:28px"><strong>We handle everything.</strong> Our team arrives with all equipment, sets up a full presentation, serves your guests, and leaves the space clean.</p>
+ <div style="display:flex;flex-direction:column;gap:10px">
+ <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>Minimum 15 guests · No maximum</div>
+ <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>NYC, Long Island & Hamptons</div>
+ <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>Full setup, service, and cleanup</div>
+ <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>Custom menus for your event</div>
+ <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>All halal · Dietary accommodations</div>
+ <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mu)"><span style="color:var(--g)">✦</span>48 hours notice required</div>
+ </div>
  </div>
  <div class="intro-img-w rv">
-  <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="AMLU Catering Setup" class="intro-img">
-  <div class="intro-tag">Available · NYC · Long Island · Hamptons</div>
+ <img src="images/chicken.jpg" alt="AMLU Catering Spread" class="intro-img">
+ <div class="intro-tag">Available · NYC · Long Island · Hamptons</div>
  </div>
 </div>
 
 <div class="areas-s">
  <div style="text-align:center;margin-bottom:52px" class="rv">
-  <span class="sl">Where We Cater</span>
-  <h2 class="st" style="margin-bottom:16px">From Astoria to <em>the Hamptons.</em></h2>
-  <div style="font-size:12px;color:var(--mu);letter-spacing:3px;text-transform:uppercase">We travel wherever your event takes us</div>
+ <span class="sl">Where We Cater</span>
+ <h2 class="st">From Astoria to <em>the Hamptons.</em></h2>
  </div>
  <div class="areas-grid">
-  <div class="area-card rv"><span class="ac-icon">🏙️</span><div class="ac-name">Manhattan</div><div class="ac-loc">New York City</div><p class="ac-desc">Corporate lunches, private dinners, rooftop events. We bring the full AMLU experience to any Manhattan venue.</p><div class="ac-items"><div class="ac-item">Corporate catering 15–200 guests</div><div class="ac-item">Private dining rooms and loft events</div><div class="ac-item">Midtown, Downtown, Upper East/West</div></div></div>
-  <div class="area-card rv" style="animation-delay:.08s"><span class="ac-icon">🌊</span><div class="ac-name">The Hamptons</div><div class="ac-loc">East Hampton · Southampton · Bridgehampton</div><p class="ac-desc">Summer weddings, estate dinners, beach celebrations. Our Moroccan spreads are the perfect Hamptons centerpiece.</p><div class="ac-items"><div class="ac-item">Private estate and beach events</div><div class="ac-item">Wedding receptions and rehearsal dinners</div><div class="ac-item">Weekend house parties</div></div></div>
-  <div class="area-card rv" style="animation-delay:.16s"><span class="ac-icon">🏡</span><div class="ac-name">Long Island</div><div class="ac-loc">Nassau · Suffolk · North Fork · South Shore</div><p class="ac-desc">Family gatherings, milestone celebrations, community events across all of Long Island.</p><div class="ac-items"><div class="ac-item">Backyard parties and family celebrations</div><div class="ac-item">Milestone birthdays and anniversaries</div><div class="ac-item">Community and cultural events</div></div></div>
-  <div class="area-card rv" style="animation-delay:.06s"><span class="ac-icon">🌆</span><div class="ac-name">Queens &amp; Astoria</div><div class="ac-loc">Our Home Borough</div><p class="ac-desc">Local catering from our home base. Weddings, parties, and gatherings across Queens.</p><div class="ac-items"><div class="ac-item">Weddings and engagement parties</div><div class="ac-item">Community and cultural celebrations</div><div class="ac-item">Local business and office events</div></div></div>
-  <div class="area-card rv" style="animation-delay:.12s"><span class="ac-icon">🌉</span><div class="ac-name">Brooklyn &amp; The Bronx</div><div class="ac-loc">All NYC Boroughs</div><p class="ac-desc">Brooklyn loft parties, Bronx cultural events. We cover all five boroughs with ease.</p><div class="ac-items"><div class="ac-item">Williamsburg and DUMBO loft events</div><div class="ac-item">Cultural celebrations and festivals</div><div class="ac-item">Venue and restaurant partnerships</div></div></div>
-  <div class="area-card rv" style="animation-delay:.18s"><span class="ac-icon">🎪</span><div class="ac-name">Custom &amp; Destination</div><div class="ac-loc">Anywhere you need us</div><p class="ac-desc">Planning something outside our usual areas? Call us. We're happy to discuss travel for the right event.</p><div class="ac-items"><div class="ac-item">New Jersey and Connecticut available</div><div class="ac-item">Upstate New York events</div><div class="ac-item">Call us to discuss your location</div></div></div>
+ <div class="area-card rv"><span class="ac-icon">🏙️</span><div class="ac-name">Manhattan</div><div class="ac-loc">New York City</div><p class="ac-desc">Corporate lunches, private dinners, rooftop events, gallery openings.</p><div class="ac-items"><div class="ac-item">Corporate catering 15–200 guests</div><div class="ac-item">Private dining and loft events</div><div class="ac-item">Midtown, Downtown, Upper East/West</div></div></div>
+ <div class="area-card rv" style="animation-delay:.08s"><span class="ac-icon">🌊</span><div class="ac-name">The Hamptons</div><div class="ac-loc">East Hampton · Southampton · Bridgehampton</div><p class="ac-desc">Summer weddings, estate dinners, beach celebrations.</p><div class="ac-items"><div class="ac-item">Private estate and beach events</div><div class="ac-item">Wedding receptions and dinners</div><div class="ac-item">Weekend house parties</div></div></div>
+ <div class="area-card rv" style="animation-delay:.16s"><span class="ac-icon">🏡</span><div class="ac-name">Long Island</div><div class="ac-loc">Nassau · Suffolk · North Fork · South Shore</div><p class="ac-desc">Family gatherings, milestone celebrations, community events.</p><div class="ac-items"><div class="ac-item">Backyard parties and family events</div><div class="ac-item">Milestone birthdays and anniversaries</div><div class="ac-item">Community and cultural events</div></div></div>
+ <div class="area-card rv" style="animation-delay:.06s"><span class="ac-icon">🌆</span><div class="ac-name">Queens & Astoria</div><div class="ac-loc">Our Home Borough</div><p class="ac-desc">Local catering from our home base. Weddings, parties, and gatherings.</p><div class="ac-items"><div class="ac-item">Weddings and engagement parties</div><div class="ac-item">Community celebrations</div><div class="ac-item">Local business events</div></div></div>
+ <div class="area-card rv" style="animation-delay:.12s"><span class="ac-icon">🌉</span><div class="ac-name">Brooklyn & The Bronx</div><div class="ac-loc">All NYC Boroughs</div><p class="ac-desc">Brooklyn loft parties, Bronx cultural events, and everything in between.</p><div class="ac-items"><div class="ac-item">Williamsburg and DUMBO events</div><div class="ac-item">Cultural celebrations</div><div class="ac-item">Venue partnerships</div></div></div>
+ <div class="area-card rv" style="animation-delay:.18s"><span class="ac-icon">🎪</span><div class="ac-name">Custom & Destination</div><div class="ac-loc">Anywhere you need us</div><p class="ac-desc">Planning something outside our usual areas? Call us.</p><div class="ac-items"><div class="ac-item">New Jersey and Connecticut</div><div class="ac-item">Upstate New York events</div><div class="ac-item">Call to discuss your location</div></div></div>
  </div>
 </div>
 
-<div class="packages-s">
+<div class="pkg-s">
  <div style="text-align:center;margin-bottom:4px" class="rv">
-  <span class="sl">Catering Packages</span>
-  <h2 class="st" style="margin-bottom:12px">Choose your <em>experience.</em></h2>
-  <p class="bt" style="max-width:560px;margin:0 auto">All packages are fully customizable. Prices depend on guest count, location, and menu. Contact us for a personalized quote.</p>
+ <span class="sl">Catering Packages</span>
+ <h2 class="st">Choose your <em>experience.</em></h2>
+ <p class="bt" style="margin-top:12px;max-width:560px;margin-left:auto;margin-right:auto">All packages are fully customizable. Contact us for a personalized quote.</p>
  </div>
  <div class="pkg-grid">
-  <div class="pkg-card rv"><span class="pkg-icon">🥘</span><div class="pkg-name">The Mezze Spread</div><div class="pkg-sub">15–40 guests · Grazing Style</div><p class="pkg-desc">A relaxed Moroccan spread perfect for cocktail parties, office events, and casual gatherings.</p><div class="pkg-feats"><div class="pf">Trio dips — houmous, tektouka, spicy eggplant</div><div class="pf">Briouates — seafood, beef, cheese &amp; spinach</div><div class="pf">Fresh bread and msemen</div><div class="pf">Moroccan cookies and mint tea station</div><div class="pf">Full setup and serving included</div></div><div class="pkg-note">Starting from $35/person · Custom quote</div></div>
-  <div class="pkg-card rv" style="animation-delay:.1s"><span class="pkg-icon">🍽️</span><div class="pkg-name">The Tagine Feast</div><div class="pkg-sub">20–80 guests · Seated Dinner</div><p class="pkg-desc">A proper Moroccan seated dinner. Tagines, bastilla, salads, and dessert — all served tableside.</p><div class="pkg-feats"><div class="pf">Chicken or Lamb Bastilla starter</div><div class="pf">Choice of 2 tagines — lamb, shrimp, lemon chicken</div><div class="pf">Moroccan salads and fresh bread</div><div class="pf">Mint tea ceremony and Moroccan cookies</div><div class="pf">Full service staff and setup</div></div><div class="pkg-note">Starting from $55/person · Custom quote</div></div>
-  <div class="pkg-card featured rv" style="animation-delay:.05s"><span class="pkg-icon">👑</span><div class="pkg-name">The Grand Moroccan</div><div class="pkg-sub">40–200+ guests · Full Event Service</div><p class="pkg-desc">The complete AMLU experience. Our signature full-service catering package — the one that makes your event unforgettable.</p><div class="pkg-feats"><div class="pf">Full mezze and starter spread on arrival</div><div class="pf">Chicken Bastilla and Shrimp Bastilla</div><div class="pf">3 tagines — lamb, shrimp, lemon chicken</div><div class="pf">Couscous Feast with seasonal vegetables</div><div class="pf">Moroccan salad bar with 6 selections</div><div class="pf">Dessert station with French pastries and cakes</div><div class="pf">Full mint tea ceremony service</div><div class="pf">Complete setup, service, and cleanup</div></div><div class="pkg-note" style="color:var(--gl)">Pricing on request · Custom to your event</div></div>
-  <div class="pkg-card rv" style="animation-delay:.15s"><span class="pkg-icon">📦</span><div class="pkg-name">Bulk Pickup Trays</div><div class="pkg-sub">Any size · 48hr notice required</div><p class="pkg-desc">Pre-order catering trays for pickup at our Astoria location. Full menu available in catering sizes.</p><div class="pkg-feats"><div class="pf">Tagine trays — lamb, shrimp, lemon chicken</div><div class="pf">Couscous trays — lamb, chicken, vegetable</div><div class="pf">Bastilla and briouate trays</div><div class="pf">Salad and dip trays</div><div class="pf">Pastry and cake assortments</div></div><div class="pkg-note">Call (347) 242-2033 · 48hr advance notice</div></div>
+ <div class="pkg-card rv"><span class="pkg-icon">🥘</span><div class="pkg-name">The Mezze Spread</div><div class="pkg-sub">15–40 guests · Grazing Style</div><p class="pkg-desc">A relaxed Moroccan spread perfect for cocktail parties and office events.</p><div class="pkg-feats"><div class="pf">Trio dips — houmous, tektouka, spicy eggplant</div><div class="pf">Briouates — seafood, beef, cheese & spinach</div><div class="pf">Fresh bread and msemen</div><div class="pf">Moroccan cookies and mint tea station</div><div class="pf">Full setup and serving included</div></div><div class="pkg-note">Starting from $35/person · Custom quote</div></div>
+ <div class="pkg-card rv" style="animation-delay:.1s"><span class="pkg-icon">🍽️</span><div class="pkg-name">The Tagine Feast</div><div class="pkg-sub">20–80 guests · Seated Dinner</div><p class="pkg-desc">A proper Moroccan seated dinner. Tagines, bastilla, salads, and dessert.</p><div class="pkg-feats"><div class="pf">Chicken or Lamb Bastilla starter</div><div class="pf">Choice of 2 tagines</div><div class="pf">Moroccan salads and fresh bread</div><div class="pf">Mint tea ceremony and cookies</div><div class="pf">Full service staff and setup</div></div><div class="pkg-note">Starting from $55/person · Custom quote</div></div>
+ <div class="pkg-card feat rv" style="animation-delay:.05s"><span class="pkg-icon">👑</span><div class="pkg-name">The Grand Moroccan</div><div class="pkg-sub">40–200+ guests · Full Event Service</div><p class="pkg-desc">The complete AMLU experience. Full-service catering that makes your event unforgettable.</p><div class="pkg-feats"><div class="pf">Full mezze and starter spread</div><div class="pf">Chicken and Shrimp Bastilla</div><div class="pf">3 tagines — lamb, shrimp, lemon chicken</div><div class="pf">Friday Couscous Feast</div><div class="pf">Moroccan salad bar — 6 selections</div><div class="pf">Dessert station with French pastries</div><div class="pf">Full mint tea ceremony service</div><div class="pf">Complete setup, service, and cleanup</div></div><div class="pkg-note" style="color:var(--gl)">Pricing on request · Custom to your event</div></div>
+ <div class="pkg-card rv" style="animation-delay:.15s"><span class="pkg-icon">📦</span><div class="pkg-name">Bulk Pickup Trays</div><div class="pkg-sub">Any size · 48hr notice required</div><p class="pkg-desc">Pre-order catering trays for pickup. Full menu available in catering sizes.</p><div class="pkg-feats"><div class="pf">Tagine trays — lamb, shrimp, lemon chicken</div><div class="pf">Couscous trays — lamb, chicken, vegetable</div><div class="pf">Bastilla and briouate trays</div><div class="pf">Salad and dip trays</div><div class="pf">Pastry and cake assortments</div></div><div class="pkg-note">Call (347) 242-2033 · 48hr advance notice</div></div>
  </div>
 </div>
 
-<div class="process-s">
+<div class="proc-s">
+ <div class="proc-bg"></div>
  <div class="proc-inner">
-  <span class="sl rv" style="color:var(--g)">How It Works</span>
-  <h2 class="st rv" style="color:var(--w);animation-delay:.1s">Simple from<br><em style="color:var(--gl)">start to finish.</em></h2>
-  <div class="proc-steps rv" style="animation-delay:.2s">
-   <div class="ps"><div class="ps-num">01</div><div class="ps-name">Reach Out</div><div class="ps-desc">Fill out the inquiry form below or call us directly at (347) 242-2033</div></div>
-   <div class="ps"><div class="ps-num">02</div><div class="ps-name">Custom Quote</div><div class="ps-desc">We discuss your event details and create a personalized menu and pricing</div></div>
-   <div class="ps"><div class="ps-num">03</div><div class="ps-name">We Prepare</div><div class="ps-desc">Our team prepares everything fresh the day of your event — no shortcuts</div></div>
-   <div class="ps"><div class="ps-num">04</div><div class="ps-name">We Arrive</div><div class="ps-desc">Full setup, service, and cleanup — you focus on guests, we handle the rest</div></div>
-  </div>
+ <span class="sl rv" style="color:var(--g)">How It Works</span>
+ <h2 class="st rv" style="color:var(--w);animation-delay:.1s">Simple from<br><em style="color:var(--gl)">start to finish.</em></h2>
+ <div class="proc-steps rv" style="animation-delay:.2s">
+ <div class="ps"><div class="ps-num">01</div><div class="ps-name">Reach Out</div><div class="ps-desc">Fill out the form below or call (347) 242-2033</div></div>
+ <div class="ps"><div class="ps-num">02</div><div class="ps-name">Custom Quote</div><div class="ps-desc">We discuss your event and create a personalized menu</div></div>
+ <div class="ps"><div class="ps-num">03</div><div class="ps-name">We Prepare</div><div class="ps-desc">Everything prepared fresh the day of your event</div></div>
+ <div class="ps"><div class="ps-num">04</div><div class="ps-name">We Arrive</div><div class="ps-desc">Full setup, service, and cleanup included</div></div>
+ </div>
  </div>
 </div>
 
-<div class="inquiry-s" id="inquiry">
+<div class="inq-s" id="inquiry">
  <div style="text-align:center;margin-bottom:48px" class="rv">
-  <span class="sl">Get a Quote</span>
-  <h2 class="st" style="margin-bottom:12px">Tell us about<br><em>your event.</em></h2>
-  <p class="bt" style="max-width:500px;margin:0 auto">Fill in the form and we'll get back to you within 24 hours with a custom quote. No obligation.</p>
+ <span class="sl">Get a Quote</span>
+ <h2 class="st">Tell us about<br><em>your event.</em></h2>
+ <p class="bt" style="margin-top:12px;max-width:500px;margin-left:auto;margin-right:auto">Fill in the form and we will get back to you within 24 hours. No obligation.</p>
  </div>
- <form class="form-grid rv" onsubmit="submitForm(event)">
-  <div class="field"><label>Your Name *</label><input type="text" placeholder="Full name" required></div>
-  <div class="field"><label>Phone Number *</label><input type="tel" placeholder="(xxx) xxx-xxxx" required></div>
-  <div class="field"><label>Email Address *</label><input type="email" placeholder="your@email.com" required></div>
-  <div class="field"><label>Event Date *</label><input type="date" required></div>
-  <div class="field"><label>Number of Guests *</label><select required><option value="">Select guest count</option><option>15–30 guests</option><option>30–60 guests</option><option>60–100 guests</option><option>100–200 guests</option><option>200+ guests</option></select></div>
-  <div class="field"><label>Event Type *</label><select required><option value="">Select event type</option><option>Wedding / Reception</option><option>Corporate Event</option><option>Birthday Celebration</option><option>Private Dinner Party</option><option>Holiday Party</option><option>Cultural Celebration</option><option>Other</option></select></div>
-  <div class="field"><label>Event Location *</label><select required><option value="">Where is your event?</option><option>Manhattan</option><option>The Hamptons</option><option>Long Island — Nassau County</option><option>Long Island — Suffolk County</option><option>Queens / Astoria</option><option>Brooklyn</option><option>The Bronx</option><option>New Jersey / Connecticut</option><option>Other — I'll specify below</option></select></div>
-  <div class="field"><label>Preferred Package</label><select><option value="">Not sure yet</option><option>The Mezze Spread</option><option>The Tagine Feast</option><option>The Grand Moroccan</option><option>Bulk Pickup Trays</option><option>Custom — I'll explain below</option></select></div>
-  <div class="field full"><label>Tell Us About Your Event</label><textarea placeholder="Venue name, dietary requirements, special requests, specific dishes you love, anything else we should know..."></textarea></div>
-  <div class="field full" style="display:flex;gap:12px;flex-wrap:wrap">
-   <button type="submit" class="b-g" style="flex:1">Send Inquiry →</button>
-   <a href="tel:3472422033" class="b-o" style="flex:1;text-align:center">Or Call (347) 242-2033</a>
-  </div>
-  <div class="field full" style="text-align:center"><p style="font-size:11px;color:var(--mu)">We respond within 24 hours · amlu.nyc@gmail.com · @amlu.nyc on Instagram</p></div>
+ <form class="form-grid rv" action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID" method="POST">
+ <input type="hidden" name="_subject" value="New AMLU Catering Inquiry">
+ <input type="hidden" name="_replyto" value="amlu.nyc@gmail.com">
+ <div class="field"><label>Your Name *</label><input type="text" name="name" placeholder="Full name" required></div>
+ <div class="field"><label>Phone Number *</label><input type="tel" name="phone" placeholder="(xxx) xxx-xxxx" required></div>
+ <div class="field"><label>Email Address *</label><input type="email" name="email" placeholder="your@email.com" required></div>
+ <div class="field"><label>Event Date *</label><input type="date" name="date" required></div>
+ <div class="field"><label>Number of Guests *</label>
+ <select name="guests" required><option value="">Select guest count</option><option>15-30 guests</option><option>30-60 guests</option><option>60-100 guests</option><option>100-200 guests</option><option>200+ guests</option></select></div>
+ <div class="field"><label>Event Type *</label>
+ <select name="event_type" required><option value="">Select event type</option><option>Wedding / Reception</option><option>Corporate Event</option><option>Birthday Celebration</option><option>Private Dinner Party</option><option>Holiday Party</option><option>Cultural Celebration</option><option>Other</option></select></div>
+ <div class="field"><label>Event Location *</label>
+ <select name="location" required><option value="">Where is your event?</option><option>Manhattan</option><option>The Hamptons</option><option>Long Island — Nassau County</option><option>Long Island — Suffolk County</option><option>Queens / Astoria</option><option>Brooklyn</option><option>The Bronx</option><option>New Jersey / Connecticut</option><option>Other</option></select></div>
+ <div class="field"><label>Preferred Package</label>
+ <select name="package"><option value="">Not sure yet</option><option>The Mezze Spread</option><option>The Tagine Feast</option><option>The Grand Moroccan</option><option>Bulk Pickup Trays</option><option>Custom</option></select></div>
+ <div class="field full"><label>Tell Us About Your Event</label>
+ <textarea name="message" placeholder="Venue, dietary requirements, special requests, specific dishes you love..."></textarea></div>
+ <div class="field full" style="display:flex;gap:12px;flex-wrap:wrap">
+ <button type="submit" class="b-g" style="flex:1">Send Inquiry →</button>
+ <a href="tel:3472422033" class="b-o" style="flex:1;text-align:center">Or Call (347) 242-2033</a>
+ </div>
+ <div class="field full" style="text-align:center">
+ <p style="font-size:11px;color:var(--mu)">We respond within 24 hours · amlu.nyc@gmail.com · @amlu.nyc</p>
+ </div>
  </form>
 </div>
 
-<footer><div class="fg"><div><div class="fb">AMLU<span>.</span></div><p class="fd">Authentic Moroccan cuisine · Astoria, Queens · amlu.nyc@gmail.com</p></div><div><div class="fct">Explore</div><ul class="fl"><li><a href="menu.html">Menu</a></li><li><a href="catering.html">Catering</a></li><li><a href="order.html">Order</a></li><li><a href="contact.html">Contact</a></li></ul></div><div><div class="fct">Order</div><ul class="fl"><li><a href="order.html">Pickup</a></li><li><a href="#">DoorDash</a></li><li><a href="#">Grubhub</a></li><li><a href="#">Uber Eats</a></li></ul></div><div><div class="fct">Contact</div><ul class="fl"><li><a href="tel:3472422033">(347) 242-2033</a></li><li><a href="mailto:amlu.nyc@gmail.com">amlu.nyc@gmail.com</a></li><li><a href="https://instagram.com/amlu.nyc">@amlu.nyc</a></li></ul></div></div><div class="fbot"><span class="fcp">© 2026 AMLU · Astoria, Queens · amlunyc.com</span><div class="fso"><a href="https://instagram.com/amlu.nyc">📸</a><a href="https://wa.me/13472422033">💬</a></div><span class="flv">Built by <a href="https://levainestudio.com">Levaine Studio</a></span></div></footer>
+<footer>
+ <div class="fg">
+ <div><div class="fb">AMLU<span>.</span></div><div class="ft_">Moroccan Street Eatery</div><p class="fd">Authentic Moroccan cuisine in Astoria, Queens. Catering across NYC, Long Island and the Hamptons. amlu.nyc@gmail.com</p></div>
+ <div><div class="fct">Explore</div><ul class="fl"><li><a href="menu.html">Our Menu</a></li><li><a href="catering.html">Catering</a></li><li><a href="order.html">Order Now</a></li><li><a href="contact.html">Visit Us</a></li></ul></div>
+ <div><div class="fct">Order</div><ul class="fl"><li><a href="order.html">Pickup</a></li><li><a href="#">DoorDash</a></li><li><a href="#">Grubhub</a></li><li><a href="#">Uber Eats</a></li></ul></div>
+ <div><div class="fct">Contact</div><ul class="fl"><li><a href="#">38-12 30th Ave, Astoria NY</a></li><li><a href="tel:3472422033">(347) 242-2033</a></li><li><a href="mailto:amlu.nyc@gmail.com">amlu.nyc@gmail.com</a></li><li><a href="https://instagram.com/amlu.nyc">@amlu.nyc</a></li></ul></div>
+ </div>
+ <div class="fbot">
+ <span class="fcp">© 2026 AMLU Moroccan Street Eatery · Astoria, Queens · amlunyc.com</span>
+ <div class="fso"><a href="https://instagram.com/amlu.nyc">📸</a><a href="https://wa.me/13472422033">💬</a></div>
+ <span class="flv">Built by <a href="https://levainestudio.com">Levaine Studio</a></span>
+ </div>
+</footer>
 <a href="https://wa.me/13472422033" class="fwa">💬</a>
 <script>
 const cu=document.getElementById("cu"),cr=document.getElementById("cr");
 let mx=0,my=0,rx=0,ry=0;
 document.addEventListener("mousemove",e=>{mx=e.clientX;my=e.clientY;cu.style.left=mx+"px";cu.style.top=my+"px"});
 (function a(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;cr.style.left=rx+"px";cr.style.top=ry+"px";requestAnimationFrame(a)})();
-document.querySelectorAll("a,button").forEach(el=>{el.addEventListener("mouseenter",()=>{cr.style.transform="translate(-50%,-50%) scale(2)";cr.style.borderColor="rgba(201,169,110,.7)"});el.addEventListener("mouseleave",()=>{cr.style.transform="translate(-50%,-50%) scale(1)";cr.style.borderColor="rgba(201,169,110,.45)"})});
+document.querySelectorAll("a,button").forEach(el=>{
+ el.addEventListener("mouseenter",()=>{cr.style.transform="translate(-50%,-50%) scale(2)";cr.style.borderColor="rgba(201,169,110,.7)"});
+ el.addEventListener("mouseleave",()=>{cr.style.transform="translate(-50%,-50%) scale(1)";cr.style.borderColor="rgba(201,169,110,.45)"})
+});
 function tN(){document.getElementById("hb").classList.toggle("op");document.getElementById("mn").classList.toggle("op")}
 window.addEventListener("scroll",()=>{document.getElementById("nav").classList.toggle("sc",window.scrollY>60)});
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add("sh")})},{threshold:.08});
 document.querySelectorAll(".rv,.rl").forEach(el=>obs.observe(el));
-function submitForm(e){
-  e.preventDefault();
-  const btn=e.target.querySelector('button[type=submit]');
-  btn.textContent='✓ Inquiry Sent!';btn.style.background='#4ade80';btn.style.color='#0a0704';btn.disabled=true;
-  setTimeout(()=>{btn.textContent='Send Inquiry →';btn.style.background='';btn.style.color='';btn.disabled=false},4000);
-}
 </script>
-</body></html>
+</body>
+</html>

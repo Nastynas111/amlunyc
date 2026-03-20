@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AMLU — Moroccan Street Eatery | Astoria, New York</title>
+<meta name="description" content="Authentic Moroccan cuisine in Astoria, Queens. Tagines, bastilla, couscous, catering across NYC and Long Island. 38-12 30th Ave · (347) 242-2033">
+<style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cinzel:wght@400;500&family=Jost:wght@200;300;400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--w:#fdfaf5;--cr:#f7f0e6;--cr2:#ede0cc;--g:#c9a96e;--gl:#e8c98a;--gd:#9a7840;--dk:#1a130a;--dk2:#2c1f12;--dk3:#120d07;--tx:#3d2b1a;--mu:#9a8870;--wi:rgba(201,169,110,0.2);--wi2:rgba(201,169,110,0.08)}
+html{scroll-behavior:smooth}
+body{background:var(--w);color:var(--tx);font-family:'Jost',sans-serif;font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased;cursor:none}
+.cur{position:fixed;width:6px;height:6px;background:var(--g);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.cur-r{position:fixed;width:28px;height:28px;border:1px solid rgba(201,169,110,.45);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:all .18s ease}
+::-webkit-scrollbar{width:2px}::-webkit-scrollbar-thumb{background:var(--g)}
+::selection{background:var(--g);color:var(--dk)}
+a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
+.nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:center;justify-content:space-between;padding:0 52px;height:80px;transition:all .4s}
+.nav.sc{background:rgba(253,250,245,.97);backdrop-filter:blur(20px);border-bottom:1px solid var(--wi);height:64px;box-shadow:0 1px 28px rgba(61,43,26,.06)}
+.nl{font-family:'Cinzel',serif;font-size:23px;letter-spacing:7px;color:var(--w);transition:color .3s}.nav.sc .nl{color:var(--dk)}.nl span{color:var(--g)}
+.nls{display:flex;gap:40px;list-style:none;position:absolute;left:50%;transform:translateX(-50%)}
+.nls a{font-size:10px;font-weight:400;letter-spacing:3px;text-transform:uppercase;color:rgba(253,250,245,.5);transition:color .25s}
+.nav.sc .nls a{color:var(--mu)}.nls a:hover,.nls a.act{color:var(--g)!important}
+.nc{font-size:10px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:var(--dk);background:var(--g);padding:11px 24px;transition:all .2s}.nc:hover{background:var(--gl)}
+.hb{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:none;padding:4px}
+.hb span{display:block;width:20px;height:1px;background:var(--w);transition:all .3s}.nav.sc .hb span{background:var(--dk)}
+.hb.op span:nth-child(1){transform:rotate(45deg) translate(4px,4px)}.hb.op span:nth-child(2){opacity:0}.hb.op span:nth-child(3){transform:rotate(-45deg) translate(4px,-4px)}
+.mn{display:none;position:fixed;top:80px;left:0;right:0;background:rgba(253,250,245,.98);padding:24px 52px;z-index:499;flex-direction:column;border-bottom:1px solid var(--wi)}
+.mn.op{display:flex}.mn a{padding:13px 0;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--mu);border-bottom:1px solid var(--wi2);transition:color .2s}.mn a:hover{color:var(--g)}
+.mn-c{margin-top:18px!important;background:var(--g)!important;color:var(--dk)!important;text-align:center;padding:13px!important;border:none!important;letter-spacing:3px}
+@media(max-width:900px){.nls{display:none}.hb{display:flex}.nav,.mn{padding-left:24px;padding-right:24px}}
+.orn{display:flex;align-items:center;justify-content:center;gap:16px}
+.ol{flex:1;max-width:100px;height:1px;background:linear-gradient(to right,transparent,var(--g))}.ol.r{background:linear-gradient(to left,transparent,var(--g))}
+.od{width:7px;height:7px;background:var(--g);transform:rotate(45deg);flex-shrink:0}
+.ot{font-family:'Cinzel',serif;font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--g);white-space:nowrap}
+.sl{font-size:9px;letter-spacing:5px;text-transform:uppercase;color:var(--g);margin-bottom:16px;display:block;font-weight:400}
+.st{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,4.5vw,56px);font-weight:300;line-height:1.05;color:var(--dk);letter-spacing:-.5px}
+.st em{font-style:italic;color:var(--gd)}
+.bt{font-size:14px;font-weight:300;color:var(--mu);line-height:1.9}.bt strong{color:var(--tx);font-weight:400}
+.b-dk{display:inline-block;font-size:10px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--w);background:var(--dk);padding:14px 38px;transition:all .3s;border:none;cursor:none}
+.b-dk:hover{background:var(--dk2);transform:translateY(-2px)}
+.b-g{display:inline-block;font-size:10px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--dk);background:var(--g);padding:14px 38px;transition:all .3s;border:none;cursor:none}
+.b-g:hover{background:var(--gl);transform:translateY(-2px)}
+.b-o{display:inline-block;font-size:10px;font-weight:400;letter-spacing:4px;text-transform:uppercase;color:var(--tx);border:1px solid var(--wi);padding:14px 38px;transition:all .3s}
+.b-o:hover{border-color:var(--g);color:var(--g)}
+.b-ow{display:inline-block;font-size:10px;font-weight:400;letter-spacing:4px;text-transform:uppercase;color:var(--w);border:1px solid rgba(253,250,245,.28);padding:14px 38px;transition:all .3s}
+.b-ow:hover{border-color:var(--g);color:var(--g)}
+footer{background:var(--dk3);border-top:1px solid rgba(201,169,110,.1);padding:68px 5% 28px}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:1300px;margin:0 auto 52px}
+@media(max-width:900px){.fg{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:480px){.fg{grid-template-columns:1fr;gap:24px}}
+.fb{font-family:'Cinzel',serif;font-size:24px;letter-spacing:6px;color:var(--w);margin-bottom:8px}.fb span{color:var(--g)}
+.ft_{font-family:'Cormorant Garamond',serif;font-size:15px;font-style:italic;color:var(--gd);margin-bottom:12px}
+.fd{font-size:12px;color:rgba(253,250,245,.2);line-height:1.75;max-width:240px}
+.fct{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:rgba(201,169,110,.4);margin-bottom:15px;font-family:'Cinzel',serif}
+.fl{list-style:none;display:flex;flex-direction:column;gap:9px}
+.fl a{font-size:13px;font-weight:300;color:rgba(253,250,245,.2);transition:color .2s}.fl a:hover{color:var(--g)}
+.fbot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:24px;border-top:1px solid rgba(201,169,110,.07);max-width:1300px;margin:0 auto}
+.fcp{font-size:11px;color:rgba(253,250,245,.13)}
+.flv{font-size:11px;color:rgba(253,250,245,.1)}.flv a{color:rgba(201,169,110,.2);transition:color .2s}.flv a:hover{color:var(--g)}
+.fso{display:flex;gap:10px}.fso a{width:32px;height:32px;border:1px solid rgba(201,169,110,.13);display:flex;align-items:center;justify-content:center;font-size:13px;transition:all .2s}.fso a:hover{border-color:var(--g)}
+.fwa{position:fixed;bottom:28px;right:28px;z-index:800;width:52px;height:52px;background:#25d366;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 4px 20px rgba(37,211,102,.22);transition:transform .2s;animation:bob 4s ease-in-out infinite}
+.fwa:hover{background:#1fa851;transform:scale(1.08)!important}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .75s ease,transform .75s ease}
+.rl{opacity:0;transform:translateX(-26px);transition:opacity .75s ease,transform .75s ease}
+.rv.sh,.rl.sh{opacity:1;transform:none}
+
+
+.hero{height:100vh;min-height:680px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center}
+.hbg{position:absolute;inset:0;background-image:url('images/couscous.jpg');background-size:cover;background-position:center;transform:scale(1.06);animation:hZ 14s ease forwards;filter:brightness(.36) saturate(1.1)}
+@keyframes hZ{to{transform:scale(1)}}
+.hvl{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(253,250,245,0) 45%,rgba(253,250,245,.92) 100%)}
+.hc{position:relative;z-index:2;padding:0 24px}
+.htag{display:inline-block;font-size:9px;letter-spacing:6px;text-transform:uppercase;color:var(--g);border-top:1px solid var(--g);border-bottom:1px solid var(--g);padding:8px 28px;margin-bottom:28px;opacity:0;animation:fU .8s ease .3s forwards}
+.htitle{font-family:'Cinzel',serif;font-size:clamp(90px,18vw,200px);font-weight:400;line-height:1;letter-spacing:18px;color:var(--w);margin-bottom:8px;opacity:0;animation:fU .8s ease .5s forwards}
+.hsub{font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.5vw,26px);font-style:italic;letter-spacing:4px;color:rgba(253,250,245,.48);margin-bottom:48px;opacity:0;animation:fU .8s ease .7s forwards}
+.hbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;opacity:0;animation:fU .8s ease .9s forwards}
+.hscr{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);z-index:2;text-align:center;opacity:0;animation:fU 1s ease 1.2s forwards}
+.hsl{width:1px;height:52px;background:linear-gradient(to bottom,var(--g),transparent);margin:0 auto 8px;animation:sp 2s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:1}50%{opacity:.2}}
+.hst{font-size:8px;letter-spacing:4px;text-transform:uppercase;color:var(--g);opacity:.65}
+@keyframes fU{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.os{background:var(--dk);padding:16px 5%;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}
+.osl{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(253,250,245,.3)}
+.osb{display:flex;gap:10px;flex-wrap:wrap}
+.osbtn{display:inline-flex;align-items:center;gap:7px;font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;padding:10px 22px;transition:all .2s}
+.osp{background:var(--g);color:var(--dk)}.osp:hover{background:var(--gl)}
+.osd{border:1px solid rgba(201,169,110,.25);color:var(--g)}.osd:hover{background:rgba(201,169,110,.08)}
+.osc{border:1px solid rgba(253,250,245,.1);color:rgba(253,250,245,.4)}.osc:hover{color:var(--w)}
+.intro{padding:100px 5%;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1300px;margin:0 auto}
+@media(max-width:768px){.intro{grid-template-columns:1fr;gap:48px}}
+.iimg{width:100%;aspect-ratio:3/4;object-fit:cover;filter:brightness(.92) saturate(1.1)}
+.iimgw{position:relative}
+.itag{position:absolute;bottom:0;left:0;background:var(--g);color:var(--dk);padding:13px 22px;font-size:9px;letter-spacing:4px;text-transform:uppercase;font-weight:500}
+.feat{height:78vh;min-height:460px;position:relative;overflow:hidden;display:flex;align-items:center}
+.fbg{position:absolute;inset:0;background-image:url('images/tagine.jpg');background-size:cover;background-position:center;filter:brightness(.42) saturate(1.1)}
+.fvl{position:absolute;inset:0;background:linear-gradient(to right,rgba(253,250,245,.97) 0%,rgba(253,250,245,.58) 46%,transparent 70%)}
+.fc{position:relative;z-index:2;padding:0 8%;max-width:560px}
+.mp{padding:100px 5%;background:var(--cr)}
+.mpg{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;max-width:1300px;margin:0 auto 48px}
+@media(max-width:900px){.mpg{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.mpg{grid-template-columns:1fr}}
+.mpc{position:relative;overflow:hidden;cursor:none;background:var(--dk)}
+.mpc img{width:100%;aspect-ratio:4/3;object-fit:cover;filter:brightness(.68) saturate(1.1);transition:transform .6s ease,filter .5s ease;display:block}
+.mpc:hover img{transform:scale(1.06);filter:brightness(.5) saturate(1.2)}
+.mcl{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,19,10,.95) 0%,rgba(26,19,10,.18) 50%,transparent 100%)}
+.mcb{position:absolute;bottom:0;left:0;right:0;padding:22px 18px}
+.mct{font-size:8px;letter-spacing:3px;text-transform:uppercase;color:var(--g);margin-bottom:5px;display:block}
+.mcn{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;color:var(--w);line-height:1.1}
+.mcp{font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--gl);margin-top:5px}
+.mcd{font-size:11px;font-weight:300;color:rgba(253,250,245,.5);line-height:1.55;margin-top:6px;max-height:0;overflow:hidden;transition:max-height .4s ease}
+.mpc:hover .mcd{max-height:80px}
+.ct{padding:88px 5%;background:var(--dk3);position:relative;overflow:hidden}
+.ctbg{position:absolute;inset:0;background-image:url('images/chicken.jpg');background-size:cover;background-position:center;filter:brightness(.12)}
+.cti{position:relative;z-index:2;max-width:900px;margin:0 auto;text-align:center}
+.ctareas{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:32px}
+.cta2{font-size:9px;letter-spacing:3px;text-transform:uppercase;border:1px solid rgba(201,169,110,.25);color:rgba(201,169,110,.55);padding:8px 18px}
+.qs{padding:72px 5%;background:var(--cr2);text-align:center}
+.qm{font-family:'Cormorant Garamond',serif;font-size:80px;color:var(--g);line-height:.4;display:block;margin-bottom:18px;opacity:.2}
+.qt{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,3vw,34px);font-style:italic;font-weight:300;color:var(--dk);line-height:1.5;max-width:720px;margin:0 auto 18px}
+.qa{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--g)}
+.hrs{padding:76px 5%;background:var(--w);border-top:1px solid var(--wi2)}
+.hrsg{max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:48px;text-align:center}
+@media(max-width:600px){.hrsg{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="cur" id="cu"></div><div class="cur-r" id="cr"></div>
+<nav class="nav" id="nav">
+ <a href="index.html" class="nl">AMLU<span>.</span></a>
+ <ul class="nls"><li><a href="index.html" class="act">Home</a></li><li><a href="menu.html" class="">Menu</a></li><li><a href="catering.html" class="">Catering</a></li><li><a href="order.html" class="">Order</a></li><li><a href="contact.html" class="">Contact</a></li></ul>
+ <a href="catering.html" class="nc">Catering</a>
+ <button class="hb" id="hb" onclick="tN()"><span></span><span></span><span></span></button>
+</nav>
+<div class="mn" id="mn"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="catering.html">Catering</a><a href="order.html">Order</a><a href="contact.html">Contact</a><a href="catering.html" class="mn-c">Catering Inquiry</a></div>
+
+<section class="hero">
+ <div class="hbg"></div><div class="hvl"></div>
+ <div class="hc">
+ <div class="htag">Moroccan Street Eatery · Astoria, Queens · New York</div>
+ <div class="htitle">AMLU</div>
+ <div class="hsub">Authentic Moroccan Cuisine · Est. 2024</div>
+ <div class="hbtns">
+ <a href="menu.html" class="b-g">Explore Our Menu</a>
+ <a href="order.html" class="b-ow">Order Now</a>
+ </div>
+ </div>
+ <div class="hscr"><div class="hsl"></div><div class="hst">Discover</div></div>
+</section>
+
+<div class="os">
+ <span class="osl">Ready to enjoy AMLU?</span>
+ <div class="osb">
+ <a href="order.html" class="osbtn osp">🥡 Order for Pickup</a>
+ <a href="order.html#delivery" class="osbtn osd">🛵 Order Delivery</a>
+ <a href="catering.html" class="osbtn osc">🎉 Catering Inquiry</a>
+ </div>
+</div>
+
+<div style="padding:36px 5%" class="rv">
+ <div class="orn"><div class="ol"></div><div class="od"></div><div class="ot">Est. 2024 · 38-12 30th Ave, Astoria · (347) 242-2033</div><div class="od"></div><div class="ol r"></div></div>
+</div>
+
+<div class="intro">
+ <div class="rl">
+ <span class="sl">Our Philosophy</span>
+ <h2 class="st" style="margin-bottom:24px">The flavors of Morocco,<br><em>alive in New York.</em></h2>
+ <p class="bt" style="margin-bottom:16px">Amlu is a traditional Moroccan spread made from almonds, honey, and argan oil — and it gives our restaurant its name. Like that beloved condiment, everything at AMLU is crafted from the finest ingredients, layered with care, and shared with warmth.</p>
+ <p class="bt" style="margin-bottom:32px">From pastries baked fresh each morning to our slow-cooked Friday couscous — <strong>every dish is a story from Morocco's streets, brought to Astoria's table.</strong></p>
+ <div style="display:flex;gap:12px;flex-wrap:wrap">
+ <a href="menu.html" class="b-dk">View Our Menu</a>
+ <a href="catering.html" class="b-o">Catering</a>
+ </div>
+ <div style="font-family:'Cormorant Garamond',serif;font-size:38px;font-style:italic;color:var(--gd);margin-top:28px">Chef Hatim</div>
+ </div>
+ <div class="iimgw rv">
+ <img src="images/chicken.jpg" alt="AMLU Moroccan Feast" class="iimg">
+ <div class="itag">Authentic · Astoria, Queens · All Halal</div>
+ </div>
+</div>
+
+<div class="feat">
+ <div class="fbg"></div><div class="fvl"></div>
+ <div class="fc rl">
+ <span class="sl">The Art of the Tagine</span>
+ <h2 class="st" style="margin-bottom:20px">Slow-cooked.<br><em>Never rushed.</em></h2>
+ <p class="bt" style="margin-bottom:32px;max-width:420px">Our tagines are prepared the traditional way — clay pot, low flame, patience. Tender meat, sauces deep with saffron, preserved lemon, and generations of Moroccan know-how.</p>
+ <a href="menu.html" class="b-g">Explore The Menu</a>
+ </div>
+</div>
+
+<section class="mp">
+ <div style="text-align:center;margin-bottom:52px" class="rv">
+ <div class="orn" style="margin-bottom:24px"><div class="ol"></div><div class="od"></div><div class="ot">From Our Kitchen</div><div class="od"></div><div class="ol r"></div></div>
+ <h2 class="st">Timeless Moroccan <em>Classics.</em></h2>
+ <p style="font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--mu);margin-top:12px">Made fresh daily · All halal · 8am–10pm Mon–Sat</p>
+ </div>
+ <div class="mpg">
+ <div class="mpc rv">
+ <img src="images/shrimp.jpg" alt="Shrimp Tajine">
+ <div class="mcl"></div>
+ <div class="mcb"><span class="mct">Signature</span><div class="mcn">Shrimp Tajine</div><div class="mcd">Spicy shrimp in rich Moroccan tomato and herb sauce</div><div class="mcp">$13</div></div>
+ </div>
+ <div class="mpc rv" style="animation-delay:.08s">
+ <img src="images/prune.jpg" alt="Lamb Tajine">
+ <div class="mcl"></div>
+ <div class="mcb"><span class="mct">Chef's Favorite</span><div class="mcn">Lamb Tajine</div><div class="mcd">Tender lamb slow-cooked with prunes and almond</div><div class="mcp">$18</div></div>
+ </div>
+ <div class="mpc rv" style="animation-delay:.16s">
+ <img src="images/couscous.jpg" alt="Friday Couscous">
+ <div class="mcl"></div>
+ <div class="mcb"><span class="mct">Fridays Only</span><div class="mcn">Friday Couscous</div><div class="mcd">Steamed three times, family-style · Lamb $20 · Chicken $18 · Veg $14</div><div class="mcp">From $14</div></div>
+ </div>
+ </div>
+ <div style="text-align:center" class="rv"><a href="menu.html" class="b-dk">View Full Menu →</a></div>
+</section>
+
+<div class="ct">
+ <div class="ctbg"></div>
+ <div class="cti rv">
+ <span class="sl" style="color:var(--g)">Catering & Private Events</span>
+ <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(36px,5.5vw,68px);font-weight:300;line-height:1;letter-spacing:-1px;color:var(--w);margin-bottom:16px">We Bring Morocco<br><em style="font-style:italic;color:var(--gl)">To Your Event.</em></h2>
+ <p style="font-size:15px;font-weight:300;color:rgba(253,250,245,.38);line-height:1.85;max-width:600px;margin:0 auto 28px">From Manhattan boardrooms to Hamptons weddings and Long Island celebrations — AMLU delivers the warmth of Moroccan hospitality directly to your table.</p>
+ <div class="ctareas">
+ <div class="cta2">Manhattan</div><div class="cta2">The Hamptons</div><div class="cta2">Long Island</div><div class="cta2">Queens</div><div class="cta2">Brooklyn</div><div class="cta2">All of NYC</div>
+ </div>
+ <a href="catering.html" class="b-g">Explore Catering →</a>
+ </div>
+</div>
+
+<div class="qs rv">
+ <span class="qm">"</span>
+ <div class="qt">"Every dish at AMLU carries a memory — the smell of a grandmother's kitchen, the noise of a medina market, the warmth of a Moroccan table."</div>
+ <div class="qa">Chef Hatim — AMLU Astoria</div>
+</div>
+
+<section class="hrs" id="hours">
+ <div style="text-align:center;margin-bottom:44px" class="rv">
+ <div class="orn"><div class="ol"></div><div class="od"></div><div class="ot">Visit Us</div><div class="od"></div><div class="ol r"></div></div>
+ </div>
+ <div class="hrsg">
+ <div class="rv">
+ <span style="font-size:22px;margin-bottom:14px;display:block;opacity:.45">📍</span>
+ <div style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:4px;color:var(--g);margin-bottom:10px">Location</div>
+ <div style="width:40px;height:1px;background:var(--g);opacity:.25;margin:10px auto 12px"></div>
+ <div style="font-size:13px;color:var(--mu);line-height:1.9;font-weight:300"><strong style="color:var(--tx);font-weight:400;display:block">38-12 30th Avenue</strong>Astoria, Queens<br>New York, NY 11103<br><br>Near N/W train · 30th Ave</div>
+ </div>
+ <div class="rv" style="animation-delay:.1s">
+ <span style="font-size:22px;margin-bottom:14px;display:block;opacity:.45">🕐</span>
+ <div style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:4px;color:var(--g);margin-bottom:10px">Hours</div>
+ <div style="width:40px;height:1px;background:var(--g);opacity:.25;margin:10px auto 12px"></div>
+ <div style="font-size:13px;color:var(--mu);line-height:1.9;font-weight:300"><strong style="color:var(--tx);font-weight:400;display:block">Mon–Sat</strong>8am – 10pm<br><strong style="color:var(--tx);font-weight:400;display:block;margin-top:6px">Sunday</strong>Closed<br><br><strong style="color:var(--g)">Friday</strong> Couscous feast all day</div>
+ </div>
+ <div class="rv" style="animation-delay:.2s">
+ <span style="font-size:22px;margin-bottom:14px;display:block;opacity:.45">📞</span>
+ <div style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:4px;color:var(--g);margin-bottom:10px">Contact</div>
+ <div style="width:40px;height:1px;background:var(--g);opacity:.25;margin:10px auto 12px"></div>
+ <div style="font-size:13px;color:var(--mu);line-height:1.9;font-weight:300"><strong><a href="tel:3472422033" style="color:var(--tx)">(347) 242-2033</a></strong><br><a href="https://instagram.com/amlu.nyc" style="color:var(--mu)">@amlu.nyc</a><br><a href="mailto:amlu.nyc@gmail.com" style="color:var(--mu);font-size:12px">amlu.nyc@gmail.com</a><br><br>DoorDash · Grubhub · Uber Eats</div>
+ </div>
+ </div>
+</section>
+
+<footer>
+ <div class="fg">
+ <div>
+ <div class="fb">AMLU<span>.</span></div>
+ <div class="ft_">Moroccan Street Eatery</div>
+ <p class="fd">Authentic Moroccan cuisine in Astoria, Queens. Catering across NYC, Long Island and the Hamptons. amlu.nyc@gmail.com</p>
+ </div>
+ <div><div class="fct">Explore</div><ul class="fl"><li><a href="menu.html">Our Menu</a></li><li><a href="catering.html">Catering</a></li><li><a href="order.html">Order Now</a></li><li><a href="contact.html">Visit Us</a></li></ul></div>
+ <div><div class="fct">Order</div><ul class="fl"><li><a href="order.html">Pickup</a></li><li><a href="#">DoorDash</a></li><li><a href="#">Grubhub</a></li><li><a href="#">Uber Eats</a></li></ul></div>
+ <div><div class="fct">Contact</div><ul class="fl"><li><a href="#">38-12 30th Ave, Astoria NY</a></li><li><a href="tel:3472422033">(347) 242-2033</a></li><li><a href="mailto:amlu.nyc@gmail.com">amlu.nyc@gmail.com</a></li><li><a href="https://instagram.com/amlu.nyc">@amlu.nyc</a></li></ul></div>
+ </div>
+ <div class="fbot">
+ <span class="fcp">© 2026 AMLU Moroccan Street Eatery · Astoria, Queens · amlunyc.com</span>
+ <div class="fso"><a href="https://instagram.com/amlu.nyc">📸</a><a href="https://wa.me/13472422033">💬</a></div>
+ <span class="flv">Built by <a href="https://levainestudio.com">Levaine Studio</a></span>
+ </div>
+</footer>
+<a href="https://wa.me/13472422033" class="fwa">💬</a>
+<script>
+const cu=document.getElementById("cu"),cr=document.getElementById("cr");
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener("mousemove",e=>{mx=e.clientX;my=e.clientY;cu.style.left=mx+"px";cu.style.top=my+"px"});
+(function a(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;cr.style.left=rx+"px";cr.style.top=ry+"px";requestAnimationFrame(a)})();
+document.querySelectorAll("a,button").forEach(el=>{
+ el.addEventListener("mouseenter",()=>{cr.style.transform="translate(-50%,-50%) scale(2)";cr.style.borderColor="rgba(201,169,110,.7)"});
+ el.addEventListener("mouseleave",()=>{cr.style.transform="translate(-50%,-50%) scale(1)";cr.style.borderColor="rgba(201,169,110,.45)"})
+});
+function tN(){document.getElementById("hb").classList.toggle("op");document.getElementById("mn").classList.toggle("op")}
+window.addEventListener("scroll",()=>{document.getElementById("nav").classList.toggle("sc",window.scrollY>60)});
+const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add("sh")})},{threshold:.08});
+document.querySelectorAll(".rv,.rl").forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
